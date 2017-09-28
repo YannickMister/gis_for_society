@@ -1,0 +1,68 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	padding-top: 50px;
+  	font-size: 14px;
+	text-align: justify;
+}
+
+iframe {
+	border: 2px solid black;
+}
+
+.portret {
+	display: inline-block;
+	float: left;
+	height: 180px;
+	width: 125px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.a {
+	text-decoration: none;
+	font-style: italic;
+	color: #43879e;
+}
+
+b {
+	color: #43879e;
+}
+
+p {
+	display: inline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Gestolen van Curriculum Vitae:  */
+	/* all input, under each date  */
+	.input {
+		text-align: right;
+	}
+	/* title in paragraph; within input */
+	.title {
+		font-weight: bold;
+	}
+	/* text in paragraph, under title; within input */
+	.subtitle {
+		color: dimgray;
+	}
+
+	/* Non-mobile, grid */
+	@media only screen and (min-width: 640px) {
+		/* all input, under each date  */
+		.input {
+			text-align: left;
+		}
+	}
+/* Gestolen van Curriculum Vitae  */
